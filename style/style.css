@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(../images/floresta.png);
+    background-size: cover;
+}
+
+body h1 {
+    background-color: rgba(255, 255, 255, 0.461);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#rip {
+    background-color: #3f3f3f;
+    height: 90vh;
+    border-radius: 35% 35% 0px 0px;
+    padding: 50px;
+    box-shadow: 50px 0px #4c4c4c;
+    width: 500px;
+    margin: auto;
+}
+
+#rip h1, #rip p {
+    background-color: #00000000;
+    color: #a4a4a4;
+    text-shadow: 2px 2px #000000;
+}
+
+#rip img {
+    max-height: 90%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 9px #00000060;
+}
